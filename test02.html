@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CULTURAL'EVENT</title>
+</head>
+    <body>
+        <nav class="navigate">
+            <div id="menu">
+                <ul id="liste1">
+                    <li><a href="test.html" class="li">Acceuil</a></li>
+                    <li><a href="test01.html"class="li">A propos</a></li>
+                    <li><a href="test02.html"class="li">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <h1>CULTURAL'EVENT</h1>
+        <br>
+        <p>Remplissez ce formulaire pour pouvoir valider vos commandes en ligne</p>
+        <form method="post" action="traitement.php">
+            <fieldset id="section1">
+                <p>Formulaire</p>
+                <hr>
+                <br>
+                <label for="nom">Nom : </label>
+                <input type="text" id="name" required>
+                <br>                
+                <label for="prenom">Prénom :</label>
+                <input type="text" id="prenom" required>
+                <br>
+                <label for="masculin">sexe :</label>
+                <input type="radio" id="masculin" name="sexe" value="masculin" required>                
+                <label for="masculin" >M</label>
+                <input type="radio" id="feminin" name="sexe" value="feminin" required>
+                <label for="feminin" >F</label>
+                <br>
+                <label for="pays">pays :</label>                
+                <select id="pays" name="pays">
+                    <option class="option" value="Bénin">Bénin</option>
+                    <option class="option" value="Togo">Togo</option>
+                    <option class="option" value="Niger">Niger</option>
+                </select>
+                <br>
+                <label for="oui">confidentiel:</label>
+                <input type="radio" id="oui" name="confidentiel" value="oui" required>
+                <label for="oui">Oui</label>
+                <input type="radio" id="non" name="confidentiel" value="non" required>
+                <label for="non">Non</label>
+                <label for="E-mail">E-mai :</label>
+                <input type="text" id="E-mail" name="E-mail" required>
+                <br>
+                <label for="prez">Message :</label>
+                <textarea id="prez" name="presentation" style="text-transform: none;;height: auto; padding: auto;"></textarea>
+                <br>                
+                <br>
+                <div id="bouton">
+                    <input id="bouton" type="submit" value="Envoyer">
+                    <input id="bouton" type="reset" value="Annuler">
+                </div>
+                <br>
+            </fieldset>
+        </form>
+    
+        <form>
+        <footer>
+        Copyright avril 2024
+        </footer>
+
+    </body>
+</html>

@@ -1,0 +1,208 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-size: 100%;
+    z-index: 0;
+    background-image: url(img13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+header{
+    margin: 20px 0px;
+    padding: 0px;
+    height: 40px;
+}
+h1{
+    text-align: center;
+    color:azure;
+    height: 5%;
+    font-size: 50px;
+    text-shadow: 0px 0px 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+nav{
+    /*ici seul la bande de navigation est modifier*/ 
+    background-color: white;
+    font-weight: bold;
+    font-family:serif;
+    margin-bottom: 1rem;
+    position: sticky;
+    top: 0;
+    height: 5%;
+    width: 100%;
+    z-index: 999;
+}
+nav ul{
+    margin: 0px ;
+    padding: 0px ;
+}
+nav li{
+    list-style-type: none;
+    float: left;
+}
+nav a{
+    /*afin que les lien vers les autres text soient bien mis en forme*/
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 60px;
+    color:black;
+    text-transform: capitalize;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#menu{
+    display: table;
+    margin: 0 auto;
+}
+.li:hover{
+    background-color:beige;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.603) ;
+    border-radius: 10px;
+}
+.div-acceuil{
+    background-color: rgba(211, 206, 198, 0.11);
+    color: whitesmoke;
+    text-align: center;
+    word-wrap: break-word;
+    border: 0px solid black;
+    margin: 15% 20%;
+    padding: 5px 5px;
+    margin-bottom: 5%;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 50px;
+    font-family:sans-serif;
+    box-shadow: 0px 0px 10px black;
+    
+}
+#main-acceuil{
+    color: whitesmoke;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: cursive;
+    width: auto;
+}
+footer{
+    background-color:#34495E;
+    height: 80px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 30px;
+    width: 100%;
+}
+table{
+    text-align: center;
+    color:  rgba(255, 255, 255, 0.966);
+    background-image: url(map-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color:#eceff1be;
+    padding: 10% 20%;
+    margin: 0 auto ;
+    border-collapse: collapse;
+    border: 2px solid black;
+    box-shadow: 0px 0px 10px rgb(216, 203, 203);
+    line-height: 40px;
+    width: 50%;
+}
+td{
+    border: 2px solid black;
+    font-size: large;
+    font-weight: bold;
+
+}
+p{
+    color: whitesmoke;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: cursive;
+    width: auto;
+
+}
+#section1{
+    color: rgb(255, 255, 255);
+    background-image: url(map-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #34495ea2;
+    padding: 0px 20%;
+    margin: 90px 15% ;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgb(216, 203, 203);
+    line-height: 40px;
+}
+#section1 input,#section1 textarea{
+    font-weight: bold;
+    color:  rgb(255, 255, 255);
+    background-color: rgba(250, 235, 215, 0.555);
+    height: 20px;
+    width: 200px;
+    padding: 0px 0px;
+    margin: 0px 0px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    text-indent: 10px;
+}
+#section1 label{
+    font-family: cursive;
+    font-weight: bold;
+    display: inline-block ;
+    width: 100px;
+    padding: 10px 20px;
+    text-transform: capitalize;
+}
+#section1 select{
+    font-weight: bold;
+    color:  rgb(255, 255, 255);
+    background-color: rgba(250, 235, 215, 0.555);
+    height: 20px;
+    width: 200px;
+    padding: 0px 0px;
+    margin: 0px 0px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    text-indent: 10px;
+}
+#section1 h1{
+    font-weight: bold;
+    text-align: center;
+}
+#section1 input[type="radio"]+label{
+    width: 20px;
+    padding-left: 0px;
+
+}
+#section1 input[type="radio"]{
+    width: 20px;
+    padding: 0px 20px;
+}
+#section1 input[type="submit"],#section1 input[type="reset"]{
+    display: inline-block;
+    text-indent: 0;
+    height: 40px;
+    width: 70px;
+    background-color: rgba(255, 255, 255, 0.473);
+}
+#bouton{
+    text-align: center;
+    word-spacing: 5%;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+.option{
+    color: black;
+    background-color: #34495E;
+}
